@@ -1,2 +1,2 @@
 # SomewhatSecureWebAPP
-secure web development - assignment 002
+secure application development - assignment 002
