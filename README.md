@@ -22,14 +22,14 @@ alternatively you can use the UI.
 
 Next open the SQL console of the new database and add the following query:
 
-CREATE TABLE IF NOT EXISTS `users` (
- `id` int(11) NOT NULL AUTO_INCREMENT,
- `adminauthenticator` boolean NOT NULL,`
- `username` varchar(50) NOT NULL,
- `email` varchar(50) NOT NULL,
- `password` varchar(50) NOT NULL,
- `create_datetime` datetime NOT NULL,
- PRIMARY KEY (`id`)
+CREATE TABLE IF NOT EXISTS `users` ( <br />
+ `id` int(11) NOT NULL AUTO_INCREMENT, <br />
+ `adminauthenticator` boolean NOT NULL,` <br />
+ `username` varchar(50) NOT NULL, <br />
+ `email` varchar(50) NOT NULL, <br />
+ `password` varchar(50) NOT NULL, <br />
+ `create_datetime` datetime NOT NULL, <br />
+ PRIMARY KEY (`id`) <br />
 );
 
 Now the database is ready.
@@ -45,7 +45,7 @@ Lastly click on the *Admin* button infront of APACHE to launch the web applicati
 
 # Usage
 
-To switch a regestired user from a normal user to an administrator, simply login to the PHPmyAdmin and change the Boolean value from 0 to 1.
+To switch a registered user from a normal user to an administrator, simply login to the PHPmyAdmin and change the Boolean value from 0 to 1.
 
 
 Thats all for now, Good Luck !!
