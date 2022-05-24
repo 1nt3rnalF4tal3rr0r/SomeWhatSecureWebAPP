@@ -16,22 +16,28 @@ With both APACHE and MySQL up and running the next step is to click the *Admin* 
 # Database
 
 The following query is used to create the database from the MySQL console:
+
+```
 CREATE DATABASE LoginSystem;
+```
 
 alternatively you can use the UI.
 
 Next open the SQL console of the new database and add the following query:
 
-CREATE TABLE IF NOT EXISTS `users` ( <br />
- `id` int(11) NOT NULL AUTO_INCREMENT, <br /> <br />
- `adminauthenticator` boolean NOT NULL,` <br /> <br />
- `username` varchar(50) NOT NULL, <br /> <br />
- `email` varchar(50) NOT NULL, <br />
- `password` varchar(50) NOT NULL, <br />
- `create_datetime` datetime NOT NULL, <br />
- PRIMARY KEY (`id`) <br />
+```
+
+CREATE TABLE IF NOT EXISTS `users` ( 
+ `id` int(11) NOT NULL AUTO_INCREMENT, 
+ `adminauthenticator` boolean NOT NULL,
+ `username` varchar(50) NOT NULL, 
+ `email` varchar(50) NOT NULL, 
+ `password` varchar(50) NOT NULL, 
+ `create_datetime` datetime NOT NULL, 
+ PRIMARY KEY (`id`)
 );
 
+```
 Now the database is ready.
 
 
