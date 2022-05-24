@@ -6,7 +6,7 @@ This is the documentation guide to successfully startup and run this simple and 
 
 
 # Startup
-First of all you need to install the appropriate [XAMPP](https://www.apachefriends.org/download.html) control pannel according to you OS.
+First of all you need to install the appropriate [XAMPP](https://www.apachefriends.org/download.html) control pannel according to your OS.
 After running XAMPP click on the *Start* button infront of MYSQL and APACHE.
 
 With both APACHE and MySQL up and running the next step is to click the *Admin* button infront of MySQL to add a new database.
